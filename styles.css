@@ -1,19 +1,61 @@
-a {
+a, a:visited {
   text-decoration: none;
+  color: rgba(27, 47, 47, 0.915);
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  line-height: 1.45;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 body {
   background-color: #F4F3EC;
+  margin: 5% auto;
+  width: 85%;
 }
 
 h1, h2, h3, h4, h5, h6 {
+  color: rgb(27, 47, 47);
   font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+  font-size: 2.197em;
+  line-height: 1;
+}
+
+h2 {
+  font-size: 1.69em;
+  line-height: 1;
+  margin: auto;
 }
 
 img {
   width: 100%;
+  margin-bottom: 2%;
 }
 
 li, p {
+  color: rgb(27, 47, 47);
   font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.3em;
+  line-height: 1.45;
+  margin: auto;
+}
+
+p {
+  margin-top: .5em;
+}
+
+ul, ol {
+  margin-block-start: .55em;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For mobile phones: */
+  body {
+    width: 50%;
+  }
 }
