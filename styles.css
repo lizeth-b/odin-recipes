@@ -1,8 +1,8 @@
 a, a:visited {
-  color: rgba(27, 47, 47, 0.915);
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 1em;
   line-height: 1.45;
+  font-family: Helvetica, Arial, sans-serif;
+  color: rgba(27, 47, 47, 0.915);
 }
 
 a:hover {
@@ -10,14 +10,14 @@ a:hover {
 }
 
 body {
-  background-color: #F4F3EC;
   margin: 5% auto;
   width: 85%;
+  background-color: #F4F3EC;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: rgb(27, 47, 47);
   font-family: 'Courier New', Courier, monospace;
+  color: rgb(27, 47, 47);
 }
 
 h1 {
@@ -26,22 +26,23 @@ h1 {
 }
 
 h2 {
+  margin: auto;
   font-size: 1.69em;
   line-height: 1;
-  margin: auto;
 }
 
 img {
-  width: 100%;
   margin-bottom: 3%;
+  width: 100%;
+  height: auto;
 }
 
 li, p {
-  color: rgb(27, 47, 47);
-  font-family: Helvetica, Arial, sans-serif;
+  margin: auto;
   font-size: 1.3em;
   line-height: 1.45;
-  margin: auto;
+  font-family: Helvetica, Arial, sans-serif;
+  color: rgb(27, 47, 47);
 }
 
 p {
@@ -53,7 +54,7 @@ ul, ol {
 }
 
 @media only screen and (min-width: 768px) {
-  /* For mobile phones: */
+  /* For tablets and up: */
   body {
     width: 50%;
   }
