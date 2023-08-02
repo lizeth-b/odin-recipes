@@ -1,3 +1,3 @@
-# Odin Recipes
+# Recipes
 
-Displays recipes from pre-selected dishes. Original recipes and images found at [Allrecipes](https://www.allrecipes.com/).
+Displays recipes from pre-selected dishes for The Odin Project. Original recipes and images found at [Allrecipes](https://www.allrecipes.com/).
